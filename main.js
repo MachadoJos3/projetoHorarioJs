@@ -10,22 +10,22 @@ msg.innerHTML = `Agora sao ${hora} horas.`
 
 if(hora >= 6 && hora < 12){
     //Bom dia
-    img.src = 'imagens/fotoManha.png'
+    img.src = 'fotoManha.png'
     document.body.style.backgroundColor = '#e2cd9f'
     msghora.innerHTML = '🌄Bom dia'
 }else if (hora >= 12 && hora <= 18){
     //Boa tarde
-    img.src = 'imagens/fotoTarde.png'
+    img.src = 'fotoTarde.png'
     document.body.style.backgroundColor = '#ebd35e'
     msghora.innerHTML = '🌆Boa tarde'
 }else if (hora >= 0 && hora <= 5){
     //Boa madrugada
-    img.src = 'imagens/fotoMadrugada.png'
+    img.src = 'fotoMadrugada.png'
     document.body.style.backgroundColor = '#3e6666'
     msghora.innerHTML = '🌇Boa madrugada'
 }else{
     //boa noite
-    img.src = 'imagens/fotoNoite.png'
+    img.src = 'fotoNoite.png'
     document.body.style.backgroundColor = '#213636'
     msghora.innerHTML = '🌃Boa noite'
 }
